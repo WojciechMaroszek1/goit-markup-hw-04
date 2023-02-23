@@ -22,23 +22,27 @@
 						<span class="nav-logo-studio">Studio</span>
 					</a>
 					<ul class="nav-list">
-						<li><a class="nav-link text-color-pointer" href="./index.html">Agencja</a></li>
-						<li><a class="nav-link text-color-pointer current" href="./portfolio.html">Portfolio</a></li>
-						<li><a class="nav-link text-color-pointer" href="./kontakt.html">Kontakty</a></li>
+						<li><a class="nav-link" href="./index.html">Agencja</a></li>
+						<li><a class="nav-link current" href="./portfolio.html">Portfolio</a></li>
+						<li><a class="nav-link" href="./kontakt.html">Kontakty</a></li>
 					</ul>
 				</nav>
 				<ul class="contact-list">
 					<li>
-						<svg width="16" height="12">
-							<use href="./images/icons.svg#icon-envelope"></use>
-						</svg>
-						<a class="nav-link2 text-color-pointer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+						<a class="nav-link2" href="mailto:info@devstudio.com">
+							<svg class="icon-envelope">
+								<use href="./images/icons.svg#icon-envelope"></use>
+							</svg>
+							info@devstudio.com
+						</a>
 					</li>
 					<li>
-						<svg width="16" height="12">
-							<use href=".../images/icons.svg#icon-smartphone"></use>
-						</svg>
-						<a class="nav-link2 text-color-pointer" href="tel:48111111111">+48 111 111 111</a>
+						<a class="nav-link2" href="tel:48111111111">
+							<svg class="icon-smartphone">
+								<use href="./images/icons.svg#icon-smartphone"></use>
+							</svg>
+							+48 111 111 111
+						</a>
 					</li>
 				</ul>
 			</div>
@@ -123,33 +127,46 @@
 			</section>
 		</main>
 		<footer class="footer-bg">
-			<div class="container">
-				<a class="footer-logo" href="./index.html">
-					<span>Web</span>
-					<span class="footer-logo-studio">Studio</span>
-				</a>
-				<address>
-					<ul class="adress-list">
-						<li class="address-text">
-							<a
-								class="footer-adress addres-color-pointer"
-								href="https://goo.gl/maps/CgjjjS2WBtp8LF2a7"
-								target="_blank"
-								rel="noopener nofollow"
-							>
-								m. Warszawa, Aleja Jerozolimska 21
-							</a>
-						</li>
-						<li class="address-text">
-							<a class="footer-adress text-color-pointer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-						</li>
-						<li><a class="footer-adress text-color-pointer" href="tel:48111111111">+48 111 111 111</a></li>
-					</ul>
-				</address>
+			<div class="container footer-container">
+				<div>
+					<a class="footer-logo" href="./index.html">
+						<span>Web</span>
+						<span class="footer-logo-studio">Studio</span>
+					</a>
+					<address>
+						<ul class="adress-list">
+							<li class="address-text">
+								<a
+									class="footer-adress addres-color-pointer"
+									href="https://goo.gl/maps/CgjjjS2WBtp8LF2a7"
+									target="_blank"
+									rel="noopener nofollow"
+								>
+									m. Warszawa, Aleja Jerozolimska 21
+								</a>
+							</li>
+							<li class="address-text">
+								<a class="footer-adress text-color-pointer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							</li>
+							<li><a class="footer-adress text-color-pointer" href="tel:48111111111">+48 111 111 111</a></li>
+						</ul>
+					</address>
+				</div>
 				<div>
 					<h3 class="visually-hidden">Social</h3>
 					<p class="social-text">DOŁĄCZ DO NAS</p>
-					<div></div>
+					<div class="social-box">
+						<svg class="social-cover">
+							<use href="./images/icons.svg#icon-instagram-2"></use>
+						</svg>
+						<svg class="social-cover"><use href="./images/icons.svg#icon-twitter-2"></use></svg>
+						<svg class="social-cover">
+							<use href="./images/icons.svg#icon-facebook-2"></use>
+						</svg>
+						<svg class="social-cover">
+							<use href="./images/icons.svg#icon-linkedin-2"></use>
+						</svg>
+					</div>
 				</div>
 			</div>
 		</footer>
